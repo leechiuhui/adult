@@ -4,8 +4,8 @@ import streamlit as st
 import joblib
 
 # 載入模型與標準化轉換模型
-clf = joblib.load('./data/model.joblib')
-scaler = joblib.load('./data/scaler.joblib')
+clf = joblib.load('./model.joblib')
+scaler = joblib.load('./scaler.joblib')
 
 st.title('年收入（ > 50k ）預測')
 
